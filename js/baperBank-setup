@@ -1,53 +1,101 @@
-html tag
 
-a . deposit balance                          b . withdraw balance
+; html tag
 
-1. deposit balance html tag + id          1. withdraw balance html tag + Id 
-2. deposit balance input tag + id        2. withdraw balance input tag + id    
-3.deposit button tag + id                 3. withdraw button tag + id 
+; a . deposit balance                          b . withdraw balance
 
-c.balance
-1. html tag + id 
+; 1. deposit balance html tag + id          1. withdraw balance html tag + Id 
+; 2. deposit balance input tag + id        2. withdraw balance input tag + id    
+; 3.deposit button tag + id                 3. withdraw button tag + id 
 
-
-
-1. add even listener to the deposit button
-(add even listener করে button id টি কে ধরে নিয়ে এসে click এবং function set করবো ) যেমন :
-
-2. get deposit amount from the deposit input field
-(function এর ভিতরে deposit এর input field টি কে ধরে নিয়ে আসবো )
-
-3. 2 নং এ যে variable টি দিবো মানে input id ধরে নিয়ে এসেছি যে variable এ সে variable এর ভিতরে সংখ্যাটি পেতে নতুন variable name = 2 নং variable বা input id নিয়েছি সে variable এর name . value দিয়ে পেতে হবে । 
-
-4. convert string deposit amount to a number type
-(3 নং এ যে variable আছে বা input এর ভিতরে  লেখা পাওয়ার জন্য যে variable সেট করেছি সংখ্যাটি string থেকে number এ convert করার জন্য parseFloat(সে variable name / 3 নং variable name) নতুন variable এ রাখতে হবে )
-
-5. input clear 
-(input এর ভিতরে যে লেখা ছিলো সেটা clear করতে হলে input id ধরেছিলাম যে variable দিয়ে সে variable Name  / 2 নং variable name . value) = " "; empty দিবো 
-
-6. get the previous deposit total 
-(নতুন একটা variable নিয়ে যেখানে html tag id যেখানে মানটি দেখাবো সেটির id কে ধরে নিয়ে আসবো )
-
-7. 6 নং এর variable বা যে html tag id যে variable দিয়ে ধরে নিয়ে এসেছি সে variable মানটিকে পেতে innerText করবো আর নতুন variable এ সেট করে দিবো ।যেমন : 
-const newValue = 6 নং variable name . innerText ;
-
-8. 7 নং এ যে variable আছে বা html এর text পাওয়ার জন্য যে variable সেট করেছি সংখ্যাটিকে string থেকে number এ convert করার জন্য parseFloat করতে হবে parseFloat( সে variable Name / 7 নং variable Name) নতুন variable এ রাখতে হবে 
+; c.balance
+; 1. html tag + id 
 
 
-9. নতুন variable নিয়ে input variable যেটিকে number এ convert করেছি / 4 নং + html এর innerText value যে টি number এ convert করেছি সেটি ৮ নং variable name ;
+; ; 
+;       deposit balance + total balance
+
+; 1. add even listener to the deposit button
+; (add even listener করে button id টি কে ধরে নিয়ে এসে click এবং function set করবো ) যেমন :
+
+; 2. get deposit amount from the deposit input field
+; (function এর ভিতরে deposit এর input field টি কে ধরে নিয়ে আসবো )
+
+; 3. 2 নং এ যে variable টি দিবো মানে input id ধরে নিয়ে এসেছি যে variable এ সে variable এর ভিতরে সংখ্যাটি পেতে নতুন variable name = 2 নং variable বা input id নিয়েছি সে variable এর name . value দিয়ে পেতে হবে । 
+
+; 4. convert string deposit amount to a number type
+; (3 নং এ যে variable আছে বা input এর ভিতরে  লেখা পাওয়ার জন্য যে variable সেট করেছি সংখ্যাটি string থেকে number এ convert করার জন্য parseFloat(সে variable name / 3 নং variable name) নতুন variable এ রাখতে হবে )
+
+; 5. input clear 
+; (input এর ভিতরে যে লেখা ছিলো সেটা clear করতে হলে input id ধরেছিলাম যে variable দিয়ে সে variable Name  / 2 নং variable name . value) = " "; empty দিবো 
+
+; 6. get the previous deposit total 
+; (নতুন একটা variable নিয়ে যেখানে html tag id যেখানে মানটি দেখাবো সেটির id কে ধরে নিয়ে আসবো )
+
+; 7. 6 নং এর variable বা যে html tag id যে variable দিয়ে ধরে নিয়ে এসেছি সে variable মানটিকে পেতে innerText করবো আর নতুন variable এ সেট করে দিবো ।যেমন : 
+; const newValue = 6 নং variable name . innerText ;
+
+; 8. 7 নং এ যে variable আছে বা html এর text পাওয়ার জন্য যে variable সেট করেছি সংখ্যাটিকে string থেকে number এ convert করার জন্য parseFloat করতে হবে parseFloat( সে variable Name / 7 নং variable Name) নতুন variable এ রাখতে হবে 
 
 
-10. যে variable দিয়ে html এর id টি কে ধরে নিয়ে এসে ছিলাম / 6 নং এর variable name . innerText = যেখানে দুইটি variable যোগ করা হয়েছিল সেই variable name / 9 নং variable name ;
+; 9. নতুন variable নিয়ে input variable যেটিকে number এ convert করেছি / 4 নং + html এর innerText value যে টি number এ convert করেছি সেটি ৮ নং variable name ;
 
 
-                           মূল balance
-11. নতুন একটি variable নিয়ে সে variable মূল balance  বা total balance এর id টি কে ধরে নিয়ে আসবো 
+; 10. যে variable দিয়ে html এর id টি কে ধরে নিয়ে এসে ছিলাম / 6 নং এর variable name . innerText = যেখানে দুইটি variable যোগ করা হয়েছিল সেই variable name / 9 নং variable name ;
 
-12. নতুন  একটা variable নিয়ে যে  variable দিয়ে html tag এর id টি কে ধরে নিয়ে এসেছিলাম সে id variable এর name দিয়ে . innerText দিবো । যেন তার মানটি পেতে পারি । 
 
-13. নতুন একটি variable দিয়ে 12 নং variable name / html এর text পাওয়ার জন্য যে variable set করেছি সে variable name দিয়ে parseFloat করবো । যেমন : const newVariable = parseFloat(12 নং variable Name);
+;                            মূল balance
+; 11. নতুন একটি variable নিয়ে সে variable মূল balance  বা total balance এর id টি কে ধরে নিয়ে আসবো 
 
-14. নতুন variable = 13 নং variable Name / total balance কে parseFloat করেছি সে variable Name + ৮নং variable Name / যে সাহায্যে 7 নং variable parseFloat করেছি সে variable name
+; 12. নতুন  একটা variable নিয়ে যে  variable দিয়ে html tag এর id টি কে ধরে নিয়ে এসেছিলাম সে id variable এর name দিয়ে . innerText দিবো । যেন তার মানটি পেতে পারি । 
 
-15. যে variable দিয়ে balance total এর html id ধরে নিয়ে এসেছিলাম / 12 নং variable Name . innerText = 14 নং variable Name / দুটি balance যোগ করছিলাম সে variable Name ;
+; 13. নতুন একটি variable দিয়ে 12 নং variable name / html এর text পাওয়ার জন্য যে variable set করেছি সে variable name দিয়ে parseFloat করবো । যেমন : const newVariable = parseFloat(12 নং variable Name);
 
+; 14. নতুন variable = 13 নং variable Name / total balance কে parseFloat করেছি সে variable Name + ৮নং variable Name / যে সাহায্যে 7 নং variable parseFloat করেছি সে variable name
+
+; 15. যে variable দিয়ে balance total এর html id ধরে নিয়ে এসেছিলাম / 12 নং variable Name . innerText = 14 নং variable Name / দুটি balance যোগ করছিলাম সে variable Name ;
+
+  
+
+    withdraw balance + total balance
+
+    
+; 1. add even listener to the withdraw button
+; (add even listener করে button id টি কে ধরে নিয়ে এসে click এবং function set করবো ) যেমন :
+
+; 2. get withdraw amount from the withdraw input field
+; (function এর ভিতরে withdraw এর input field টি কে ধরে নিয়ে আসবো )
+
+; 3. 2 নং এ যে variable টি দিবো মানে input id ধরে নিয়ে এসেছি যে variable এ সে variable এর ভিতরে সংখ্যাটি পেতে নতুন variable name = 2 নং variable বা input id নিয়েছি সে variable এর name . value দিয়ে পেতে হবে । 
+
+; 4. convert string withdraw amount to a number type
+; (3 নং এ যে variable আছে বা input এর ভিতরে  লেখা পাওয়ার জন্য যে variable সেট করেছি সংখ্যাটি string থেকে number এ convert করার জন্য parseFloat(সে variable name / 3 নং variable name) নতুন variable এ রাখতে হবে )
+
+; 5. input clear 
+; (input এর ভিতরে যে লেখা ছিলো সেটা clear করতে হলে input id ধরেছিলাম যে variable দিয়ে সে variable Name  / 2 নং variable name . value) = " "; empty দিবো 
+
+; 6. get the previous withdraw total 
+; (নতুন একটা variable নিয়ে যেখানে html tag id যেখানে মানটি দেখাবো সেটির id কে ধরে নিয়ে আসবো )
+
+; 7. 6 নং এর variable বা যে html tag id যে variable দিয়ে ধরে নিয়ে এসেছি সে variable মানটিকে পেতে innerText করবো আর নতুন variable এ সেট করে দিবো ।যেমন : 
+; const newValue = 6 নং variable name . innerText ;
+
+; 8. 7 নং এ যে variable আছে বা html এর text পাওয়ার জন্য যে variable সেট করেছি সংখ্যাটিকে string থেকে number এ convert করার জন্য parseFloat করতে হবে parseFloat( সে variable Name / 7 নং variable Name) নতুন variable এ রাখতে হবে 
+
+
+; 9. নতুন variable নিয়ে input variable যেটিকে number এ convert করেছি / 4 নং + html এর innerText value যে টি number এ convert করেছি সেটি ৮ নং variable name ;
+
+
+; 10. যে variable দিয়ে html এর id টি কে ধরে নিয়ে এসে ছিলাম / 6 নং এর variable name . innerText = যেখানে দুইটি variable যোগ করা হয়েছিল সেই variable name / 9 নং variable name ;
+
+
+;                            মূল balance
+
+; 11. নতুন একটি variable নিয়ে সে variable মূল balance  বা total balance এর id টি কে ধরে নিয়ে আসবো 
+
+; 12. নতুন  একটা variable নিয়ে যে  variable দিয়ে html tag এর id টি কে ধরে নিয়ে এসেছিলাম সে id variable এর name দিয়ে . innerText দিবো । যেন তার মানটি পেতে পারি । 
+
+; 13. নতুন একটি variable দিয়ে 12 নং variable name / html এর text পাওয়ার জন্য যে variable set করেছি সে variable name দিয়ে parseFloat করবো । যেমন : const newVariable = parseFloat(12 নং variable Name);
+
+; 14. নতুন variable = 13 নং variable Name / total balance কে parseFloat করেছি সে variable Name - ৮নং variable Name / যে সাহায্যে 7 নং variable parseFloat করেছি সে variable name
+
+; 15. যে variable দিয়ে balance total এর html id ধরে নিয়ে এসেছিলাম / 12 নং variable Name . innerText = 14 নং variable Name / দুটি balance যোগ করছিলাম সে variable Name ;
